@@ -14,9 +14,9 @@ This interactive workshop will introduce participants to the use of Google Colab
 
 <br>
 
-Link to Google Slides presentation
+## Google Slides presentation
 
-Link to Google Colaboratory Notebook
+## Google Colaboratory Notebook
 
 
 Prepared by [Alex Pakalniskis](https://alexpakalniskis.com)
