@@ -6,13 +6,14 @@ This interactive workshop will introduce participants to the use of Google Colab
 
 ### ILC 117
 
-<!DOCTYPE html>
+
 <html>
-  <iframe src="https://maps.arizona.edu/room/?room=0117&bldg=0070.00"  height="200" width="300"></iframe>
+  <iframe src="https://maps.arizona.edu/room/?room=0117&bldg=0070.00"  height="50%" width="90%"></iframe>
 </html>
 
 
 <br>
+
 Link to Google Slides presentation
 
 Link to Google Colaboratory Notebook
