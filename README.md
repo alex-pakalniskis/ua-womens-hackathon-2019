@@ -8,34 +8,7 @@ ILC 117
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>UA Enterprise GIS</title>
-    <link rel="stylesheet" href="https://js.arcgis.com/3.18/esri/css/esri.css">
-    <style>
-      html, body, #map {height: 100%; width: 100%; margin: 0; padding: 0;}
-    </style>
-    <script src="https://js.arcgis.com/3.18/"></script>
-    <script>
-      var map;
-      require(["esri/map", "esri/layers/ArcGISTiledMapServiceLayer", "esri/layers/ArcGISDynamicMapServiceLayer", "dojo/domReady!"],
-        function(Map, ArcGISTiledMapServiceLayer, ArcGISDynamicMapServiceLayer) {
-            map = new Map("map", {  
-                center: [-110.953, 32.232], // long, lat of UA Old main
-                zoom: 20, 
-                logo: false,
-            });  
-            var campusBaseMap = new ArcGISTiledMapServiceLayer("https://services.maps.arizona.edu/pdc/rest/services/enterprise/MapServer/");
-            var interior = new ArcGISDynamicMapServiceLayer("https://services.maps.arizona.edu/pdc/rest/services/InteriorDept/MapServer")
-            map.addLayer(campusBaseMap);
-            map.addLayer(interior)
-        });
-    </script>
-  </head>
-<body>
-    <div id="map"></div>
-</body>
+  <iframe src="https://maps.arizona.edu/room/?room=0117&bldg=0070.00"  height="200" width="300"></iframe>
 </html>
 
 
