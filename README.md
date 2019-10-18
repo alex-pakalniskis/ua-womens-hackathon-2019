@@ -8,7 +8,7 @@ This interactive workshop will introduce participants to the use of Google Colab
 
 
 <html>
-  <iframe src="https://maps.arizona.edu/room/?room=0117&bldg=0070.00"  height="50%" width="90%"></iframe>
+  <iframe src="https://maps.arizona.edu/room/?room=0117&bldg=0070.00"  height="350" width="90%"></iframe>
 </html>
 
 
