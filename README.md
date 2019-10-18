@@ -19,4 +19,4 @@ Link to Google Slides presentation
 Link to Google Colaboratory Notebook
 
 
-[`Alex Pakalniskis`](https://alexpakalniskis.com)
+Prepared by [Alex Pakalniskis](https://alexpakalniskis.com)
