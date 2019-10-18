@@ -12,6 +12,7 @@ This interactive workshop will introduce participants to the use of Google Colab
 </html>
 
 
+<br>
 Link to Google Slides presentation
 
 Link to Google Colaboratory Notebook
