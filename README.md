@@ -2,9 +2,9 @@
 
 This interactive workshop will introduce participants to the use of Google Colaboratory for analysis and visualization of spatial data. Using this free Google Drive extension, participants will access a cloud-based Jupyter Notebook Python programming environment for a hands-on experience with software libraries such as geopandas, matplotlib, and folium. Participants will learn how to programmatically interact with Google Drive files and create interactive web maps.
 
-Track: Compute
+*Track: Compute*
 
-ILC 117
+### ILC 117
 
 <!DOCTYPE html>
 <html>
@@ -12,4 +12,9 @@ ILC 117
 </html>
 
 
-[Alex Pakalniskis](https://alexpakalniskis.com)
+Link to Google Slides presentation
+
+Link to Google Colaboratory Notebook
+
+
+[`Alex Pakalniskis`](https://alexpakalniskis.com)
