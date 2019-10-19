@@ -24,5 +24,11 @@ This interactive workshop will introduce participants to the use of Google Colab
 * [Leaflet/folium Tile Providers](https://leaflet-extras.github.io/leaflet-providers/preview/)
 * [Matplotlib Colormaps](https://matplotlib.org/3.1.1/gallery/color/colormap_reference.html)
 
+
+
+<html>
+  <iframe src="https://nbviewer.jupyter.org/github/alex-pakalniskis/ua-womens-hackathon-2019/blob/master/assets/html/tucson_data_centers.html" height="350" width="90%"></iframe>
+</html>
+
 ---
 Prepared by [Alex Pakalniskis](https://alexpakalniskis.com) for [UA Women's Hackathon](https://womenshackathon.arizona.edu/) 2019
