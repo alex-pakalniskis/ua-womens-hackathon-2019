@@ -27,8 +27,8 @@ This interactive workshop will introduce participants to the use of Google Colab
 
 ## Outputs
 <html> 
-  <iframe src="https://nbviewer.jupyter.org/github/alex-pakalniskis/ua-womens-hackathon-2019/blob/master/assets/imgs/data_centers_tucson.png" height="350" width="90%">
-  </iframe>
+  <img src="https://nbviewer.jupyter.org/github/alex-pakalniskis/ua-womens-hackathon-2019/blob/master/assets/imgs/data_centers_tucson.png" height="350" width="90%">
+  </img>
   <iframe src="https://nbviewer.jupyter.org/github/alex-pakalniskis/ua-womens-hackathon-2019/blob/master/assets/html/tucson_data_centers.html" height="350" width="90%">
   </iframe>
 </html>
