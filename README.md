@@ -25,7 +25,7 @@ This interactive workshop will introduce participants to the use of Google Colab
 * [Matplotlib Colormaps](https://matplotlib.org/3.1.1/gallery/color/colormap_reference.html)
 
 
-
+## Outputs
 <html>
   <iframe src="https://nbviewer.jupyter.org/github/alex-pakalniskis/ua-womens-hackathon-2019/blob/master/assets/html/tucson_data_centers.html" height="350" width="90%"></iframe>
 </html>
