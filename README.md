@@ -19,4 +19,4 @@ This interactive workshop will introduce participants to the use of Google Colab
 * [Tucson Data Centers Data Source](https://www.datacentermap.com/usa/arizona/tucson/map.html)
 
 ---
-Prepared by [Alex Pakalniskis](https://alexpakalniskis.com) for UA Women's Hackathon 2019
+Prepared by [Alex Pakalniskis](https://alexpakalniskis.com) for [UA Women's Hackathon](https://womenshackathon.arizona.edu/) 2019
