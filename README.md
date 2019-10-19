@@ -18,6 +18,11 @@ This interactive workshop will introduce participants to the use of Google Colab
 * [Google Colaboratory Notebook](https://colab.research.google.com/drive/1N3qZmh_1taDVKIwrA8vQ2e-V5TqFr2RI)
 * [Tucson Data Centers Google Sheet](https://docs.google.com/spreadsheets/d/1xOpiV58l76stT406ecqlc-wp8MqN3X-hCo-EJxouKsg/view#gid=0)
 * [Tucson Data Centers Data Source](https://www.datacentermap.com/usa/arizona/tucson/map.html)
+* [PublicaMundi USA State Boundaries GeoJSON](https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json")
+* [Southern Arizona Jurisdictional Boundaries GeoJSON](https://opendata.arcgis.com/datasets/b53bbe832e4e4d94a31730b596487d28_0.geojson)
+* [Tucson Major Streets and Routes GeoJSON](https://opendata.arcgis.com/datasets/c6d21082e6d248f0b7db0ff4f6f0ed8e_7.geojson)
+* [Leaflet/folium Tile Providers](https://leaflet-extras.github.io/leaflet-providers/preview/)
+* [Matplotlib Colormaps](https://matplotlib.org/3.1.1/gallery/color/colormap_reference.html)
 
 ---
 Prepared by [Alex Pakalniskis](https://alexpakalniskis.com) for [UA Women's Hackathon](https://womenshackathon.arizona.edu/) 2019
