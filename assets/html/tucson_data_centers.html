@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_3ad4ddab12c14b07836a8723373020fd {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.css"/>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_3ad4ddab12c14b07836a8723373020fd" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_3ad4ddab12c14b07836a8723373020fd = L.map(
+        'map_3ad4ddab12c14b07836a8723373020fd', {
+        center: [32.226204833333334, -110.92957016666666],
+        zoom: 7,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+L.control.scale().addTo(map_3ad4ddab12c14b07836a8723373020fd);
+
+    
+    var tile_layer_ec9f52fee9b548d4895e9308aff0b1aa = L.tileLayer(
+        'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+        {
+        "attribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"https://carto.com/attributions\">CARTO</a>",
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_3ad4ddab12c14b07836a8723373020fd);
+    
+            var marker_cluster_54631dedba1c45f783d5599baefe8e7b = L.markerClusterGroup({});
+            map_3ad4ddab12c14b07836a8723373020fd.addLayer(marker_cluster_54631dedba1c45f783d5599baefe8e7b);
+            
+    
+        var marker_fd940dca1cf44a82881684ea447b733b = L.marker(
+            [32.172309000000006, -110.95410700000001],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_54631dedba1c45f783d5599baefe8e7b);
+        
+    
+            var popup_625bc2cc706d4e52a562a9d1acda68e5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8fb6aef04d834229ae770bfae93e5276 = $(`<div id="html_8fb6aef04d834229ae770bfae93e5276" style="width: 100.0%; height: 100.0%;">Involta Data Center</div>`)[0];
+                popup_625bc2cc706d4e52a562a9d1acda68e5.setContent(html_8fb6aef04d834229ae770bfae93e5276);
+            
+
+            marker_fd940dca1cf44a82881684ea447b733b.bindPopup(popup_625bc2cc706d4e52a562a9d1acda68e5)
+            ;
+
+            
+        
+    
+        var marker_72ca4d5fea054c39b4b2fda9ab246118 = L.marker(
+            [32.224111, -110.968976],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_54631dedba1c45f783d5599baefe8e7b);
+        
+    
+            var popup_0cb67bf8000c4df89e7888f609348f9b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e3495e4be1b14ec2aa2c3dd7f63c29c1 = $(`<div id="html_e3495e4be1b14ec2aa2c3dd7f63c29c1" style="width: 100.0%; height: 100.0%;">Level 3 Tucson</div>`)[0];
+                popup_0cb67bf8000c4df89e7888f609348f9b.setContent(html_e3495e4be1b14ec2aa2c3dd7f63c29c1);
+            
+
+            marker_72ca4d5fea054c39b4b2fda9ab246118.bindPopup(popup_0cb67bf8000c4df89e7888f609348f9b)
+            ;
+
+            
+        
+    
+        var marker_324afcc80f6542d4a47d1135c88a20ca = L.marker(
+            [32.244957, -110.969154],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_54631dedba1c45f783d5599baefe8e7b);
+        
+    
+            var popup_5fc678140f5c411fa98b421477b8cd6f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f1989e0060074b13bc626e73982542c8 = $(`<div id="html_f1989e0060074b13bc626e73982542c8" style="width: 100.0%; height: 100.0%;">Login DC2</div>`)[0];
+                popup_5fc678140f5c411fa98b421477b8cd6f.setContent(html_f1989e0060074b13bc626e73982542c8);
+            
+
+            marker_324afcc80f6542d4a47d1135c88a20ca.bindPopup(popup_5fc678140f5c411fa98b421477b8cd6f)
+            ;
+
+            
+        
+    
+        var marker_9009578501fa471dac9c0161c41d7353 = L.marker(
+            [32.237377, -110.906989],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_54631dedba1c45f783d5599baefe8e7b);
+        
+    
+            var popup_718577f69e9547fa9e7ed86f9916c078 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_91566de6e03d47c4860ec724b14f3dad = $(`<div id="html_91566de6e03d47c4860ec724b14f3dad" style="width: 100.0%; height: 100.0%;">Login Top-Tier Data Center</div>`)[0];
+                popup_718577f69e9547fa9e7ed86f9916c078.setContent(html_91566de6e03d47c4860ec724b14f3dad);
+            
+
+            marker_9009578501fa471dac9c0161c41d7353.bindPopup(popup_718577f69e9547fa9e7ed86f9916c078)
+            ;
+
+            
+        
+    
+        var marker_bc721b6a64744c5ca12eb9105457410e = L.marker(
+            [32.30218, -110.82464399999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_54631dedba1c45f783d5599baefe8e7b);
+        
+    
+            var popup_32a43934ac0c4881b7618675d6aad71f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8872c6a2fc234d658511b53551c55169 = $(`<div id="html_8872c6a2fc234d658511b53551c55169" style="width: 100.0%; height: 100.0%;">Simply Bits Vault</div>`)[0];
+                popup_32a43934ac0c4881b7618675d6aad71f.setContent(html_8872c6a2fc234d658511b53551c55169);
+            
+
+            marker_bc721b6a64744c5ca12eb9105457410e.bindPopup(popup_32a43934ac0c4881b7618675d6aad71f)
+            ;
+
+            
+        
+    
+        var marker_328f9afe26fa4b63bf3f97e11df063c5 = L.marker(
+            [32.176295, -110.953551],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_54631dedba1c45f783d5599baefe8e7b);
+        
+    
+            var popup_1aa5b4c965254502864dffccf0cec86d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6607477217d4447fa9fa0b37a2afc00a = $(`<div id="html_6607477217d4447fa9fa0b37a2afc00a" style="width: 100.0%; height: 100.0%;">tw telecom Tucson</div>`)[0];
+                popup_1aa5b4c965254502864dffccf0cec86d.setContent(html_6607477217d4447fa9fa0b37a2afc00a);
+            
+
+            marker_328f9afe26fa4b63bf3f97e11df063c5.bindPopup(popup_1aa5b4c965254502864dffccf0cec86d)
+            ;
+
+            
+        
+    
+
+        var tile_layer_ffc0689f2f334933b56cf35cbe0acc4c = L.tileLayer(
+        'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+} );
+
+        var mini_map_b4d7f7b4789c461bbf8795ec3c89102a = new L.Control.MiniMap( tile_layer_ffc0689f2f334933b56cf35cbe0acc4c,
+         {
+  "autoToggleDisplay": false,
+  "centerFixed": false,
+  "collapsedHeight": 25,
+  "collapsedWidth": 25,
+  "height": 150,
+  "minimized": false,
+  "position": "bottomright",
+  "toggleDisplay": true,
+  "width": 100,
+  "zoomAnimation": false,
+  "zoomLevelFixed": null,
+  "zoomLevelOffset": -5
+});
+        map_3ad4ddab12c14b07836a8723373020fd.addControl(mini_map_b4d7f7b4789c461bbf8795ec3c89102a);
+
+        
+</script>
